@@ -84,8 +84,8 @@ if __name__ == '__main__':
     import sys
     import urllib.request
     if sys.argv[1].startswith('http://') or sys.argv[1].startswith('https://'):
-        urllib.request.urlretrieve(sys.argv[1], "asciify.jpg")
-        path = "asciify.jpg"
+        urllib.request.urlretrieve(sys.argv[1], "surya.jpg")
+        path = "surya.jpg"
     else:
         path = sys.argv[1]
     runner(path)
